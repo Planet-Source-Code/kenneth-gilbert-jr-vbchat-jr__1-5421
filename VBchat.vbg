@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=VBchatJr.vbp
+Project=ChatServer\ChatServer.vbp
