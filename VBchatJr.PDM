@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=VBChatJr (Single Cab)
+
+
+[Package|VBChatJr (Single Cab)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Vbprogs\Packages\VBchatJr
+
+[Package|VBChatJr (Single Cab)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|VBChatJr (Single Cab)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|VBChatJr (Single Cab)|Files Found]
+
+[Package|VBChatJr (Single Cab)|Files Released]
+
+[Package|VBChatJr (Single Cab)|Missing Dependency Information]
+
+[Package|VBChatJr (Single Cab)|Out-of-Date Dependency Information]
+
+[Package|VBChatJr (Single Cab)|Files Added]
+
+[Package|VBChatJr (Single Cab)|Files Removed]
+
+[Package|VBChatJr (Single Cab)|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\Desktop\My Stuff\Visual Basic Stuff\VBchatJr\VBchatJr.exe=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+
+[Package|VBChatJr (Single Cab)|Configure Registry Files]
+Applicable=No
+
+[Package|VBChatJr (Single Cab)|Configure Remote Servers]
+Applicable=No
+
+[Package|VBChatJr (Single Cab)|Install Locations]
+C:\WINDOWS\Desktop\VBchatJr\VBchatJr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Desktop\My Stuff\Visual Basic Stuff\VBchatJr\VBchatJr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|VBChatJr (Single Cab)|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\VBchatJr\VBchatJr.exe=No
+C:\WINDOWS\Desktop\Desktop\My Stuff\Visual Basic Stuff\VBchatJr\VBchatJr.exe=Yes
+
+[Package|VBChatJr (Single Cab)|Distribution]
+Type=single
+Size=
+Title=Simple VB Chat Client by Sage_Z
+
+[Package|VBChatJr (Single Cab)|IconGroups]
+Group0=Simple VB Chat Client
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|VBChatJr (Single Cab)|Simple VB Chat Client]
+Icon1=VBchatJr.exe
+Title1=Run VB Chat Jr (Client)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|VBChatJr (Single Cab)|Package]
+PackageFolder=C:\Vbprogs\Packages\VBchatJr
+ProjectFolder=C:\WINDOWS\Desktop\Desktop\My Stuff\Visual Basic Stuff\VBchatJr
+ServerSideCab=
+File1=C:\Vbprogs\Packages\VBchatJr\setup.exe
+File2=C:\Vbprogs\Packages\VBchatJr\Setup.Lst
+File3=C:\Vbprogs\Packages\VBchatJr\VBchatJr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
